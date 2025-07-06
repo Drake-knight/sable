@@ -1,0 +1,12 @@
+[package]
+name = "sable"
+version = "0.5.0"
+edition = "2021"
+
+[lib]
+name = "sable"
+path = "src/lib.rs"
+
+[profile.release]
+debug = 1
+opt-level = 3
