@@ -6,3 +6,4 @@ pub mod lexer;
 pub mod parser;
 pub mod compiler;
 pub mod chunk;
+pub mod value;
