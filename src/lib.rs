@@ -8,3 +8,4 @@ pub mod compiler;
 pub mod chunk;
 pub mod value;
 pub mod object;
+pub mod table;
