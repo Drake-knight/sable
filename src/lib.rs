@@ -12,3 +12,4 @@ pub mod table;
 pub mod heap;
 pub mod gc;
 pub mod vm;
+pub mod builtins;
