@@ -1,0 +1,30 @@
+[package]
+name = "sable-fuzz"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[package.metadata]
+cargo-fuzz = true
+
+[workspace]
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.sable]
+path = ".."
+
+[[bin]]
+name = "source_fuzzer"
+path = "fuzz_targets/source_fuzzer.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "chunk_fuzzer"
+path = "fuzz_targets/chunk_fuzzer.rs"
+test = false
+doc = false
+bench = false
