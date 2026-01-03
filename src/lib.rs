@@ -14,3 +14,4 @@ pub mod gc;
 pub mod vm;
 pub mod builtins;
 pub mod disasm;
+pub mod encoding;
