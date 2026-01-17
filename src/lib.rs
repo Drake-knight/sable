@@ -15,3 +15,4 @@ pub mod vm;
 pub mod builtins;
 pub mod disasm;
 pub mod encoding;
+pub mod json;
