@@ -17,3 +17,4 @@ pub mod disasm;
 pub mod encoding;
 pub mod json;
 pub mod random;
+pub mod pattern;
