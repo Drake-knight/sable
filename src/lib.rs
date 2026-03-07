@@ -18,3 +18,4 @@ pub mod encoding;
 pub mod json;
 pub mod random;
 pub mod pattern;
+pub mod hashing;
