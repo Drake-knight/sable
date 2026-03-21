@@ -19,3 +19,4 @@ pub mod json;
 pub mod random;
 pub mod pattern;
 pub mod hashing;
+pub mod csv;
