@@ -21,3 +21,4 @@ pub mod pattern;
 pub mod hashing;
 pub mod csv;
 pub mod sha256;
+pub mod analyze;
