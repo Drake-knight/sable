@@ -22,3 +22,4 @@ pub mod hashing;
 pub mod csv;
 pub mod sha256;
 pub mod analyze;
+pub mod url;
