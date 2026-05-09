@@ -23,3 +23,4 @@ pub mod csv;
 pub mod sha256;
 pub mod analyze;
 pub mod url;
+pub mod base32;
