@@ -24,3 +24,4 @@ pub mod sha256;
 pub mod analyze;
 pub mod url;
 pub mod base32;
+pub mod stats2;
