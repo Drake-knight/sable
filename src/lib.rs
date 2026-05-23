@@ -25,3 +25,4 @@ pub mod analyze;
 pub mod url;
 pub mod base32;
 pub mod stats2;
+pub mod textutil;
