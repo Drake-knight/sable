@@ -1,0 +1,6 @@
+language: rust
+sanitizers:
+  - address
+fuzz_targets:
+  - source_fuzzer
+  - chunk_fuzzer
